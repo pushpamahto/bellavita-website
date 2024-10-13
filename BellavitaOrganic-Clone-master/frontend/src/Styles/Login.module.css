@@ -1,0 +1,82 @@
+.email {
+  height: 50px;
+  width: 450px;
+  border: 1px solid #475d4b;
+  margin: auto;
+  margin-top: 45px;
+  color: #475d4b;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.pass {
+  height: 50px;
+  width: 450px;
+  border: 1px solid #475d4b;
+  margin: auto;
+  margin-top: 20px;
+  color: #475d4b;
+  padding: 0 0 0 10px;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.signbtn {
+  height: 45px;
+  width: 250px;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: #475d4b;
+  color: white;
+}
+.name {
+  height: 100%;
+  /* width: 70%; */
+  /* margin: auto; */
+}
+.input {
+  height: 100%;
+  width: 100%;
+}
+.logos {
+  height: 135px;
+  width: 450px;
+  margin: auto;
+
+  display: none;
+  gap: 10px;
+}
+.logobox {
+  height: 135px;
+  width: 150px;
+}
+.logoimg {
+  height: 100%;
+  width: 100%;
+  border-bottom: 2px solid #475d4b;
+}
+
+.container {
+  height: 400px;
+  width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 15px;
+}
+
+@media all and (max-width: 768px) {
+  .email,
+  .pass {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .logos {
+    display: none;
+  }
+
+  .signbtn {
+    width: 100%;
+  }
+}
